@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+.battery{
+    border: 5px solid white;
+    width: 620px;
+    height: 130px;
+    border-radius: 20px;
+    position: relative;
+    left: 460px;
+    top: 100px;
+   }
+.side{
+    border: 5px solid white;
+    width: 15px;
+    height: 70px;
+    position: relative;
+    left: 620px;
+    top: 25px;
+}
+
+.percentage{
+    animation-name: battery ;
+    animation-duration: 10s;
+    width: 620px;
+    height: 130px;
+    border-radius: 10px;
+
+}
+@keyframes battery {
+    0% {background-color: red; width: 10%;}
+    25% {background-color: orange;  }
+    50%{background-color: yellow;}
+    75%{background-color: greenyellow;}
+    100%{background-color: green;}
+
+} 
+
+
+
+
+
+
